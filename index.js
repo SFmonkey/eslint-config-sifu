@@ -1,7 +1,6 @@
 const rules = require('./rules');
-const legacy = require('./legacy');
 
 module.exports = {
-    extends: [legacy],
+    extends: ['./legacy.js'],
     rules: rules,
 }

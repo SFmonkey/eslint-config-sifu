@@ -1,10 +1,9 @@
 const rules = require('./rules');
-const legacy = require('./legacy');
 
 module.exports = {
     extends: [
         "plugin:vue/essential",
-        legacy
+        './legacy.js'
     ],
     plugins: ['vue'],
     rules: rules,

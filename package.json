@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-sifu",
-  "version": "1.0.0",
+  "version": "0.0.4",
   "description": "Eslint config",
   "main": "index.js",
   "scripts": {
@@ -11,6 +11,7 @@
     "eslintrc",
     "eslintconfig"
   ],
+  "homepage": "https://github.com/SFmonkey/eslint-config-sifu",
   "author": "SFmonkey",
   "license": "ISC",
   "devDependencies": {
