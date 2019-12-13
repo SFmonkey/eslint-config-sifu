@@ -1,13 +1,10 @@
-const index = require('./index');
-const prettierConfig = require('./.prettierrc.js');
+// const index = require('./index');
+// const prettierConfig = require('./.prettierrc.js');
 
 module.exports = {
-    extends: [
-        index, 
-        "plugin:prettier/recommended"
-    ],
+    extends: ['./index.js'],
     rules: {
-        'prettier/prettier': ['error', prettierConfig]
+        'prettier/prettier': "error"
     },
     plugins: ['prettier']
 }
